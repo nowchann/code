@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-image: url('https://s3-alpha-sig.figma.com/img/8c6a/dec6/aaee6ba6ab952d34c38b9ac896f31e72?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kv9CQqP3uJgNEBtSUtIf60ivq-ftRMxWqNYIGmehhTzuj39yetn-9db~7VhYoQA63ACV71GbLWOqrwDYW7-xSADzmAxKhVzgif7-D0RbYHEJwxf2OrU5-cOS0O9s-ixLi0sfaaUwvVHdJNvPmr04RjrDhdVaULGglk-i1Hx9u6W-mJe16k3qaRHUNIPkF-vLGJy2c6ygRjS~LTCsLIlQ9EoqqiR6JcPwA1BakMVFKHIokKqzp~PkTraxYQ8NZQfvGRORM30nOuINkDHbxVf~I8UBWyHWshigN9-zxuJov06-E9VjsV2Aj~zgLv08OocSd83~chB-jBS3WFbYw1pOvg__');
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FAFCFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.header p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4D5DFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #394dcc;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-links a {
+    color: #4D5DFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    background-image: url('https://s3-alpha-sig.figma.com/img/8c6a/dec6/aaee6ba6ab952d34c38b9ac896f31e72?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kv9CQqP3uJgNEBtSUtIf60ivq-ftRMxWqNYIGmehhTzuj39yetn-9db~7VhYoQA63ACV71GbLWOqrwDYW7-xSADzmAxKhVzgif7-D0RbYHEJwxf2OrU5-cOS0O9s-ixLi0sfaaUwvVHdJNvPmr04RjrDhdVaULGglk-i1Hx9u6W-mJe16k3qaRHUNIPkF-vLGJy2c6ygRjS~LTCsLIlQ9EoqqiR6JcPwA1BakMVFKHIokKqzp~PkTraxYQ8NZQfvGRORM30nOuINkDHbxVf~I8UBWyHWshigN9-zxuJov06-E9VjsV2Aj~zgLv08OocSd83~chB-jBS3WFbYw1pOvg__'); /* 배경 이미지를 적용합니다. */
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* 어두운 오버레이 */
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    z-index: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="file"], 
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 105px;
+    height: 40px;
+    top: 504px;
+    left: 874px;
+    background-color: #4358DF;
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 40px;
+    top: 649px;
+    left: 879px;
+    background-color: #4358DF;
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn2 {
+    width: 332px;
+    height: 40px;
+    top: 953px;
+    left: 643px;
+    background-color: #4358DF;
+    color: white;
+    padding: 12px;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.btn:hover {
+    background-color: #4358DF;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #FF6A6A;
+    text-align: left;
+}
+
+.small-text1{
+    font-size: 12px;
+    color: #757575;
+    text-align: left;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.checkbox-container input {
+    margin: 0;
+}
